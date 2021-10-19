@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## WhiteRabbt
 
-## Getting Started
+This application is a full-stack blog application built to blog about tech, software development, and just personal growth.
 
-First, run the development server:
+This is the first project I've built using Next.js, Prisma, as well as TypeScript.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The full-stack is React/Next.js, TypeScript, Prisma, SASS/SCSS, and postgreSQL. The project will be deployed using Vercel.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I really had to take my time working through this project and I learned so much in the process.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Installation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Fork & Clone the repository, run rpm install to install project dependencies. You will need to set up your own database, env file, etc.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Usage
 
-## Learn More
+As mentioned above, this is a blog application with the intent to be used to talk about my journey through tech. I didn't want to take the "easy way out"
+and just build an application in something I was already familiar with. I also didn't want to just utilize one of the many already existing online blog websites.
+I considered this a good chance to work my way through a full-stack project I could be creative with, while still challenging myself and learning some new technologies.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I ask at this time to please refrain from contributing to these files. Feel free to review the code, offer some feature requests, etc.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I hope you enjoy the project, thanks for stopping by!
