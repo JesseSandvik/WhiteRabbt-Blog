@@ -1,0 +1,91 @@
+.layout header {
+  border: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1.5rem;
+  width: 100vw;
+}
+
+.layout header .siteTitle {
+  padding: 1rem;
+}
+
+.layout header .siteTitle h1 {
+  font-size: 2rem;
+  letter-spacing: -.1rem;
+}
+
+.layout header .siteTitle small {
+  color: #27474E;
+  letter-spacing: .05rem;
+  text-shadow: 0 0 1px #C45BAA;
+}
+
+.layout header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.layout header ul li {
+  letter-spacing: .2rem;
+  padding: 0 .8rem;
+  text-transform: uppercase;
+}
+
+.layout main {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000000;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("../public/images/rabbit-silhouette_nobg-white.png");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../public/images/rabbit-silhouette_nobg-white.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #000000;
+  -webkit-box-shadow: inset 0 0 0 5px #F8F8FF;
+          box-shadow: inset 0 0 0 5px #F8F8FF;
+  color: #F8F8FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  overflow-y: auto;
+  padding: 5vh 10vw;
+  text-align: center;
+  text-shadow: -1px 1px 3px #C45BAA;
+  width: 100vw;
+}
+
+.layout footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100vw;
+}
+/*# sourceMappingURL=layout.module.css.map */

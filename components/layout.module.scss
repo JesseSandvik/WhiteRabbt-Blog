@@ -1,0 +1,74 @@
+@import '../styles/config';
+
+.layout {
+
+    header {
+        border: 2px solid $secondary-color;
+        display: flex;
+        font-weight: 600;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+        width: 100vw;
+
+        .siteTitle {
+            padding: 1rem;
+
+            h1 {
+                font-size: 2rem;
+                letter-spacing: -.1rem;
+            }
+
+            small {
+                color: $accent-color-one;
+                letter-spacing: .05rem;
+                text-shadow: 0 0 1px $accent-color-two;
+            }
+
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                letter-spacing: .2rem;
+                padding: 0 .8rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    main {
+        align-items: center;
+        background-color: $secondary-color;
+        background-image:
+            linear-gradient(to right,
+            rgba($secondary-color, 0.5),
+            rgba($secondary-color, 0.7)),
+            url('../public/images/rabbit-silhouette_nobg-white.png');
+            background-position: center;
+        background-repeat: no-repeat;
+        border: 2px solid $secondary-color;
+        box-shadow: inset 0 0 0 5px $primary-color;
+        color: $primary-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow-y: auto;
+        padding: 5vh 10vw;
+        text-align: center;
+        text-shadow: -1px 1px 3px $accent-color-two;
+        width: 100vw;
+    }
+
+    footer {
+        align-items: center;
+        border: 2px solid $secondary-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+    }
+
+}
